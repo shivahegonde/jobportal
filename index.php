@@ -485,5 +485,7 @@ $(document).ready(function(){
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="js/adminlte.min.js"></script>
+<script data-ad-client="ca-pub-6966002964533280" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 </body>
 </html>
