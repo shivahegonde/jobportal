@@ -26,6 +26,7 @@ require_once("db.php");
   <link rel="stylesheet" href="css/_all-skins.min.css">
   <!-- Custom -->
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="icon" href="http://shivguru.tech/icon.png">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -369,16 +370,17 @@ require_once("db.php");
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <img src="img/shiv1.jpg" style="border-radius: 50%;" class="img-responsive">
-          </div>
-          <div class="col-md-7 about-text margin-bottom-20">
+          <div class="col-md-12 text-center latest-job margin-bottom-20">
+            <img src="img/shiv1.jpg" style="border-radius: 50%; float: left;" class="img-responsive">
             <h2>ShivGuru.Tech was started on Sep 10, 2020, by Shivkumar Hegonde.</h2>
             
            
        
             <h3>You can follow him from below social links</h3>
             <p>&nbsp</p>
+          
+          
+            
            
             <a href="https://www.facebook.com/shivahegonde" class="fa fa-facebook" target="_blank"></a>
              
@@ -389,11 +391,11 @@ require_once("db.php");
           <a href="https://github.com/shivahegonde/" class="fa fa-github" target="_blank"> </a>
           
           </a>
-         
+          </div>
           
       
             
-          </div>
+          
         </div>
       </div>
     </section>
