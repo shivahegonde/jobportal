@@ -384,7 +384,7 @@ require_once("db.php");
            
             <a href="https://www.facebook.com/shivahegonde" class="fa fa-facebook" target="_blank"></a>
              
-          <a href="https://twitter.com/ShivHegonde" class="fa fa-twitter" target="_blank"></a>
+          <a href="https://twitter.com/shiva_hegonde" class="fa fa-twitter" target="_blank"></a>
 
           <a href="https://www.linkedin.com/in/shivahegonde/" class="fa fa-linkedin" target="_blank"> </a>
           <a href="https://www.instagram.com/shivahegonde/" class="fa fa-instagram" target="_blank"> </a>
