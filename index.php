@@ -44,6 +44,49 @@ require_once("db.php");
     display: none;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #AB2083;
+  color: white;
+}
+.fa-github {
+  background: #02011F;
+  color: white;
+}
+
+
         </style>        
 </head>
 <body class="hold-transition skin-green sidebar-mini">
@@ -115,7 +158,7 @@ require_once("db.php");
         <div class="row">
           <div class="col-md-12 text-center index-head">
             <h1>All <strong>JOBS</strong> In One Place</h1>
-            <p>One search, global reach</p>
+            <p>Making Self-reliant India</p>
             <p><a class="btn btn-success btn-lg" href="jobs.php" role="button">Search Jobs</a></p>
           </div>
         </div>
@@ -206,7 +249,7 @@ require_once("db.php");
             </div>
           </div>
           <div class="col-md-12  text-center">
-          <p>Freshersworld is one of the best popular job sites in India, always help jobseeker mainly freshers to find latest jobs in accordance with the qualification in Engineering Field.
+          <h3>ShivGuru.Tech is one of the best popular job sites in India, always help jobseeker mainly freshers to find latest jobs in accordance with the qualification in Engineering Field.</h3>
         </div>
         </div>
       </div>
@@ -330,13 +373,26 @@ require_once("db.php");
             <img src="img/shiv1.jpg" style="border-radius: 50%;" class="img-responsive">
           </div>
           <div class="col-md-7 about-text margin-bottom-20">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing <p>The online job portal application allows job seekers and recruiters to connect.The application provides the ability for job seekers to create their accounts, upload their profile and resume, search for jobs, apply for jobs, view different job openings. The application provides the ability for companies to create their accounts, search candidates, create job postings, and view candidates applications.
-            </p>
-            <p>
-              This website is used to provide a platform for potential candidates to get their dream job and excel in yheir career.
-              This site can be used as a paving path for both companies and job-seekers for a better life .
-              
-            </p>
+            <h2>ShivGuru.Tech was started on Sep 10, 2020, by Shivkumar Hegonde.</h2>
+            
+           
+       
+            <h3>You can follow him from below social links</h3>
+            <p>&nbsp</p>
+           
+            <a href="https://www.facebook.com/shivahegonde" class="fa fa-facebook" target="_blank"></a>
+             
+          <a href="https://twitter.com/ShivHegonde" class="fa fa-twitter" target="_blank"></a>
+
+          <a href="https://www.linkedin.com/in/shivahegonde/" class="fa fa-linkedin" target="_blank"> </a>
+          <a href="https://www.instagram.com/shivahegonde/" class="fa fa-instagram" target="_blank"> </a>
+          <a href="https://github.com/shivahegonde/" class="fa fa-github" target="_blank"> </a>
+          
+          </a>
+         
+          
+      
+            
           </div>
         </div>
       </div>
