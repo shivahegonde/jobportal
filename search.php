@@ -29,7 +29,7 @@ if(isset($_GET['filter']) && $_GET['filter']=='city') {
          <div class="attachment-block clearfix">
                 <img class="attachment-img" src="uploads/logo/<?php echo $row1['logo']; ?>" alt="Attachment Image">
                 <div class="attachment-pushed">
-                  <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row1['id_jobpost']; ?>"><?php echo $row1['jobtitle']; ?></a> <span class="attachment-heading pull-right">₹<?php echo $row1['minimumsalary']; ?>-₹<?php echo $row1['maximumsalary']; ?> /Annum</span></h4>
+                  <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row1['id_jobpost']; ?>"><?php echo $row1['jobtitle']; ?></a> <span class="attachment-heading pull-right"><?php if($row['minimumsalary']=="Best in Industry"||$row['minimumsalary']=="best in industry"||$row['minimumsalary']=="Best in industry") echo $row['minimumsalary']; else {echo "₹",$row['minimumsalary']; echo "-₹",$row['maximumsalary']; echo "/Annum" ;}?></span></h4>
                   <div class="attachment-text">
                       <div><strong><?php echo $row1['companyname']; ?> | <?php echo $row1['joblocation']; ?> | Experience <?php echo $row1['experience']; ?> Years</strong></div>
                   </div>
@@ -69,7 +69,7 @@ if(isset($_GET['filter']) && $_GET['filter']=='city') {
          <div class="attachment-block clearfix">
                 <img class="attachment-img" src="uploads/logo/<?php echo $row1['logo']; ?>" alt="Attachment Image">
                 <div class="attachment-pushed">
-                  <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row['id_jobpost']; ?>"><?php echo $row['jobtitle']; ?></a> <span class="attachment-heading pull-right">$<?php echo $row['maximumsalary']; ?>/Month</span></h4>
+                  <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row['id_jobpost']; ?>"><?php echo $row['jobtitle']; ?></a> <span class="attachment-heading pull-right"><?php if($row['minimumsalary']=="Best in Industry"||$row['minimumsalary']=="best in industry"||$row['minimumsalary']=="Best in industry") echo $row['minimumsalary']; else {echo "₹",$row['minimumsalary']; echo "-₹",$row['maximumsalary']; echo "/Annum" ;}?></span></h4>
                   <div class="attachment-text">
                       <div><strong><?php echo $row1['companyname']; ?> | <?php echo $row['joblocation']; ?> | Experience <?php echo $row['experience']; ?> Years</strong></div>
                   </div>

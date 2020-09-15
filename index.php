@@ -194,7 +194,7 @@ require_once("db.php");
            
               <img class="attachment-img" src="uploads/logo/<?php echo $logo; ?>" alt="Attachment Image">
               <div class="attachment-pushed">
-                <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row['id_jobpost']; ?>"><?php echo $row['jobtitle']; ?></a> <span class="attachment-heading pull-right">₹<?php echo $row['minimumsalary']; ?>-₹<?php echo $row['maximumsalary']; ?> /Annum</span></h4>
+                <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row['id_jobpost']; ?>"><?php echo $row['jobtitle']; ?></a> <span class="attachment-heading pull-right"><?php if($row['minimumsalary']=="Best in Industry"||$row['minimumsalary']=="best in industry"||$row['minimumsalary']=="Best in industry") echo $row['minimumsalary']; else {echo "₹",$row['minimumsalary']; echo "-₹",$row['maximumsalary']; echo "/Annum" ;}?></span></h4>
                 <div class="attachment-text">
                     <div><strong><?php echo $row1['companyname']; ?> | <?php echo $row['joblocation']; ?> | Experience <?php echo $row['experience']; ?> Years</strong></div>
                 </div>
@@ -281,7 +281,7 @@ require_once("db.php");
                     ?>
               <h3><?php echo $totalno; ?></h3>
 
-              <p>Job Offers</p>
+              <p>Job Posts</p>
             </div>
             <div class="icon">
               <i class="ion ion-ios-paper"></i>
@@ -304,7 +304,7 @@ require_once("db.php");
                     ?>
               <h3><?php echo $totalno; ?></h3>
 
-              <p>Registered Company</p>
+              <p>Total Companies</p>
             </div>
             <div class="icon">
                 <i class="ion ion-briefcase"></i>
@@ -450,6 +450,9 @@ require_once("db.php");
       <strong>Copyright &copy; 2019-2020 <a href="http://www.shivguru.tech/">ShivGuru.Tech</a>.</strong> All rights
     reserved.
     </div>
+    <!-- Start of WebFreeCounter Code -->
+<a href="#" ><img src="https://www.webfreecounter.com/hit.php?id=gmffpca&nd=6&style=13" border="0" alt="visitor counter"></a>
+<!-- End of WebFreeCounter Code -->
   </footer>
 
   <!-- /.control-sidebar -->
