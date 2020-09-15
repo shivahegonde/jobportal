@@ -118,7 +118,7 @@ require_once("db.php");
             <a href="#about">About Us</a>
           </li>
           <li>
-            <a href="#contact">Contact US</a>
+            <a href="#contact">Contact Us</a>
           </li>
           
           <?php if(empty($_SESSION['id_user']) && empty($_SESSION['id_company'])) { ?>
@@ -403,7 +403,7 @@ require_once("db.php");
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center latest-job margin-bottom-20">
-            <h1>Contact US</h1>                      
+            <h1>Contact Us</h1>                      
           </div>
         </div>
         <div class="row">
