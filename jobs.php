@@ -120,7 +120,12 @@ require_once("db.php");
                       <li><a href=""  class="citySearch" data-target="Work From Home"><i class="fa fa-circle-o text-yellow"></i>Work From Home</a></li>
                       <li><a href=""  class="citySearch" data-target="Delhi"><i class="fa fa-circle-o text-yellow"></i>Delhi</a></li>
                       <li><a href="" class="citySearch" data-target="Pune"><i class="fa fa-circle-o text-yellow"></i>Pune</a></li>
-                      <li><a href="" class="citySearch" data-target="Hyderabad"><i class="fa fa-circle-o text-yellow"></i>Hyderabad</a></li>
+                      <li><a href="" class="citySearch" data-target="Bangalore"><i class="fa fa-circle-o text-yellow"></i>Bangalore</a></li>
+                      <li><a href="" class="citySearch" data-target="Chennai"><i class="fa fa-circle-o text-yellow"></i>Chennai</a></li>
+                      <li><a href="" class="citySearch" data-target="Kochi"><i class="fa fa-circle-o text-yellow"></i>Kochi</a></li>
+                      <li><a href="" class="citySearch" data-target="Mumbai"><i class="fa fa-circle-o text-yellow"></i>Mumbai</a></li>
+                      <li><a href="" class="citySearch" data-target="Coimbatore"><i class="fa fa-circle-o text-yellow"></i>Coimbatore</a></li>
+                      <li><a href="" class="citySearch" data-target="Kolkata"><i class="fa fa-circle-o text-yellow"></i>Kolkata</a></li>
                     </ul>
                   </li>
                   <li class="treeview menu-open">
